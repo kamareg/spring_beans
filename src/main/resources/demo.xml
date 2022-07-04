@@ -6,7 +6,33 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
 http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-4.3.xsd">
-<bean id="R2D2" class="org.example.impls.RobotImpls" />
 
-    <bean id="R3D3" class="org.example.impls.RobotImpls" />
+<context:component-scan base-package="org.example.impls" />
+
+<!--
+    <import resource="boston.xml" />
+    <import resource="siemens.xml" />
+    <context:property-placeholder location="demo.properties" />
+
+<bean id="R2D2" class="org.example.impls.RobotImpls" init-method="initialize" destroy-method="finitialize" lazy-init="true">
+    <property name="head" ref="bostonHead" />
+    <property name="hand" ref="bostonHand" />
+    <property name="leg" ref="siemensLeg" />
+    <property name="name" value="R2D2Name" />
+    <property name="memory" value="${robot.default.memory}" />
+
+
+</bean>
+
+
+
+    <bean id="R3D3" class="org.example.impls.RobotImpls" init-method="initialize" destroy-method="finitialize" scope="prototype" depends-on="R2D2">
+    <constructor-arg name="head" ref="siemensHead" />
+        <constructor-arg name="hand" ref="bostonHand" />
+        <constructor-arg name="leg" ref="siemensLeg" />
+        <constructor-arg name="name" value="R3D3Name" />
+        <constructor-arg name="memory" value="300" />
+    </bean>
+    -->
+
 </beans>

@@ -5,27 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fefba340-7ccf-4eca-845d-de85a9fad471" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/RobotImpls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/boston/HandImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/boston/HeadImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/boston/LegImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/siemens/HandImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/siemens/HeadImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/siemens/LegImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/Head.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/Leg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/demo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/boston.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/demo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/siemens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/impls/RobotImpls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/RobotImpls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/impls/boston/HandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/boston/HandImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/impls/boston/HeadImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/boston/HeadImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/impls/boston/LegImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/boston/LegImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/impls/siemens/HandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/siemens/HandImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/impls/siemens/HeadImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/siemens/HeadImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/impls/siemens/LegImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/impls/siemens/LegImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/demo.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +50,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/NetCracker/IDE/TestSpringBeans/src/main/java/org/example/impls/siemens"
+    "last_opened_file_path": "C:/Users/Malikova/IdeaProjects/spring_beans/src/main/resources",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Malikova\IdeaProjects\spring_beans\src\main\resources" />
       <recent name="E:\NetCracker\IDE\TestSpringBeans\src\main\java\org\example\impls\siemens" />
       <recent name="E:\NetCracker\IDE\TestSpringBeans\src\main\java\org\example\impls\boston" />
     </key>
@@ -96,6 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656884796624</updated>
       <workItem from="1656884797905" duration="3327000" />
+      <workItem from="1656913578440" duration="14015000" />
     </task>
     <servers />
   </component>

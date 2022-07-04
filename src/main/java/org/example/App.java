@@ -1,9 +1,13 @@
 package org.example;
 
 import org.example.impls.RobotImpls;
+import org.example.impls.siemens.HandImpl;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+//@ComponentScan(basePackages = )
 public class App
 {
     public static void main( String[] args )
@@ -20,8 +24,19 @@ Object r2d2 = context.getBean("R2D2");
 r2d21.action();
 
 
-RobotImpls r3d3 = context.getBean("R2D3", RobotImpls.class);
+/* RobotImpls r3d3 = context.getBean("R3D3", RobotImpls.class);
         System.out.println("r3d3" + r3d3);
         r3d3.action();
+
+        RobotImpls r4d4 = context.getBean("R3D3", RobotImpls.class);
+        System.out.println("r4d4" + r4d4);
+        r4d4.setHand(context.getBean("siemensHand", HandImpl.class));
+        r4d4.action();
+
+        System.out.println("After: ");
+        System.out.println("r3d3" + r3d3);
+        System.out.println("r4d4" + r4d4);*/
+
+
     }
 }
